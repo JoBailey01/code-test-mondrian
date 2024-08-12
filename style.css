@@ -1,0 +1,53 @@
+.grey {
+    background-color: rgb(200,200,200);
+}
+
+.dark_grey {
+    background-color: rgb(150,150,150)
+}
+
+.black {
+    background-color: rgb(10,10,10)
+}
+
+.navy {
+    background-color: rgb(20,30,90)
+}
+
+.red {
+    background-color: rgb(200,30,30)
+}
+
+.orange {
+    background-color: rgb(200,50,30)
+}
+
+.yellow {
+    background-color: rgb(250,180,30)
+}
+
+.grey, .dark_grey, .black, .navy, .red, .orange, .yellow {
+    position: inherit;
+    outline: 1px solid black;
+}
+
+.grey:hover, .dark_grey:hover, .black:hover, .navy:hover, .red:hover, .orange:hover, .yellow:hover {
+    opacity: 0.5;
+    background-blend-mode: color-burn;
+}
+
+.box {
+    position: inherit;
+    width: inherit;
+}
+
+body {
+    position: auto;
+    background-color: rgb(100,100,100);
+}
+
+@media (min-width: 600px) {
+    body {
+        position: absolute;
+    }
+}
